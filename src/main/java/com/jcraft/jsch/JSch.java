@@ -110,9 +110,6 @@ public class JSch{
     config.put("aes192-ctr",    "com.jcraft.jsch.jce.AES192CTR");
     config.put("aes256-ctr",    "com.jcraft.jsch.jce.AES256CTR");
     config.put("3des-ctr",      "com.jcraft.jsch.jce.TripleDESCTR");
-    config.put("arcfour",      "com.jcraft.jsch.jce.ARCFOUR");
-    config.put("arcfour128",      "com.jcraft.jsch.jce.ARCFOUR128");
-    config.put("arcfour256",      "com.jcraft.jsch.jce.ARCFOUR256");
 
     config.put("userauth.none",    "com.jcraft.jsch.UserAuthNone");
     config.put("userauth.password",    "com.jcraft.jsch.UserAuthPassword");
